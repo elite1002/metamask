@@ -46,6 +46,10 @@
 		
 	});
 
+	$('#connectNearWallet').click(async function() {
+		console.log('here');
+	})
+
 	$('#callContract').click(async function () {
 		var result = await contract.methods
 			.owner()
