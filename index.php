@@ -9,6 +9,7 @@
 	<script src="./api.js"></script>
 </head>
 <body>
+	<button id="connectNearWallet">Connect Near Wallet</button>
 	<button id="connectWallet">Connect Metamask</button>
 	<button id="callContract">Call Contract</button>
 	<p id="address"></p>
