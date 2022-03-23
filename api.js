@@ -1,4 +1,4 @@
-import * as nearAPI from "near-api-js";
+const nearAPI = require("near-api-js");
 
 const { connect } = nearAPI;
 
